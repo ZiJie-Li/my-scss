@@ -1,0 +1,51 @@
+@each $key, $color in $color-collection {
+    .color-#{$key} {
+        color: $color !important;
+    }
+
+    .bg-color-#{$key} {
+        background: $color !important;
+    }
+
+    .hover-bg-#{$key}:hover {
+        background: $color !important;
+    }
+
+    .tag-#{$key} {
+        background-color: $color;
+    }
+}
+
+@for $i from 0 through 10 {
+    .font-size-#{$i*2+10} {
+        @include font-size($i*2 + 10);
+    }
+}
+
+@for $i from 1 through 100 {
+    .col-#{$i} {
+        float: left;
+        width: $i + 0%;
+    }
+}
+
+@for $i from 1 through 100 {
+    .col-offset-#{$i} {
+        margin-left: $i + 0%;
+    }
+}
+
+
+
+/***  Tag style  ***/
+.tag {
+    padding: 3px 7px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+    @include border-radius(3px);
+}
+
+.clear {
+    clear: both;
+}

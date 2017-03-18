@@ -1,0 +1,116 @@
+@keyframes rotateYIn {
+    0% {
+        opacity: 1;
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    50% {
+        opacity: 0;
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+    }
+}
+
+@-webkit-keyframes rotateYIn {
+    0% {
+        opacity: 1;
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    50% {
+        opacity: 0;
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+    }
+}
+
+.rotateYIn {
+    -webkit-animation-name: rotateYIn;
+    animation-name: rotateYIn;
+}
+
+@keyframes rotateYOut {
+    0% {
+        opacity: 1;
+        -webkit-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+    }
+    50% {
+        opacity: 0;
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+}
+
+@-webkit-keyframes rotateYOut {
+    0% {
+        opacity: 1;
+        -webkit-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+    }
+    50% {
+        opacity: 0;
+        -webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+}
+
+.rotateYOut {
+    -webkit-animation-name: rotateYOut;
+    animation-name: rotateYOut;
+}
+
+@-webkit-keyframes opacityBounce {
+    0%,
+    80%,
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 0;
+    }
+    40% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes opacityBounce {
+    0%,
+    80%,
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 0;
+    }
+    40% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.opacityBounce {
+    -webkit-animation-name: opacityBounce;
+    animation-name: opacityBounce;
+}

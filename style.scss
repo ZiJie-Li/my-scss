@@ -1,0 +1,12 @@
+@import "variables";
+@import "mixin";
+@import "animate";
+@import "custom";
+
+html {
+	font-size: 100%;
+}
+
+body {
+	font-family: $font-family;
+}

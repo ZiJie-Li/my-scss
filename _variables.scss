@@ -1,0 +1,37 @@
+$font-family: 微软雅黑, Microsoft JhengHei, Helvetica, Helvetica Neue, sans-serif;
+$nocolor: transparent;
+$vermilion: #DE552A;
+$viridity: #0B9256;
+$black: #252322;
+$blue: #2E72C5;
+$red: #DA4B3D;
+$white: #FFF;
+$green: #149e24;
+$darkyellow: #F5971C;
+$waterblue: #0092DA;
+$grayblack: #676767;
+$lightred: #f44336;
+$gray: gray;
+$brown: #521e0e;
+$orangeyellow: #FFC107;
+$color-collection: (
+	'vermilion': $vermilion,
+	'viridity': $viridity,
+	'black': $black,
+	'blue': $blue,
+	'red': $red,
+	'white': $white,
+	'green': $green,
+	'darkyellow': $darkyellow,
+	'waterblue': $waterblue,
+	'grayblack': $grayblack,
+	'lightred': $lightred,
+	'gray': $gray,
+	'brown': $brown,
+	'orangeyellow': $orangeyellow
+);
+$screen-lg: 1200px;
+$screen-md: 991px;
+$screen-sm: 767px;
+$screen-xs: 560px;
+$screen-xxs: 479px;
